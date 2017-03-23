@@ -1578,8 +1578,6 @@ jobs:
 - type
 - process
 - agent_id
-- agent_class
-- agent_state
 - agent_message
 - started_on
 - dispatch_status
@@ -4868,10 +4866,12 @@ miq_alert_statuses:
 - result
 - url
 - severity
-- ancestry
 - acknowledged
 - ems_id
 - description
+- resolved
+- event_ems_ref
+- assignee_id
 miq_alerts:
 - id
 - guid
